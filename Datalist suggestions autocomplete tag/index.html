@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+        <label for="browser">Choose You Browser</label>
+        <input list="browsers" type="text" name="browser" id="browser">
+        <datalist id="browsers">
+            <option class="abc" value="Edge">
+                <option class="abc" value="Firefox">
+                <option class="abc" value="Chrome">
+                <option class="abc" value="Opera">
+                <option class="abc" value="Safari">
+        </datalist>
+<!--  -->        
+<!-- <input type="text" list="myDatalist" placeholder="Choose an option">
+<datalist id="myDatalist">
+  <option value="Option 1"></option>
+  <option value="Option 2"></option>
+  <option value="Option 3"></option>
+</datalist> -->
+
+<br><br><br><br><br><br><br><br><br>
+<b>Here is if two input in which one is autocomplete off and second is on and here in second if we input something and click 
+    submit than next time it will show us the suggestion and in second on autocomplete is off
+</b>
+<form action="/action_page.php">
+    First name: <input type="text" name="fname" autocomplete="off" ><br>
+    Last name: <input type="text" name="lname" autocomplete="on"><br>
+    <input type="submit">
+  </form>
+</body>
+</html>
